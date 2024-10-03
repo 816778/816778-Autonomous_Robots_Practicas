@@ -58,5 +58,8 @@ __pycache__/
 # Environment files
 .env
 
+/.vscode
+/.catkin_tools
 .vscode
+.catkin_tools
 
