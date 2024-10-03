@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="stage_ros" type="stage" name="stage" args="-world $(find first_package)/world/simple.world" />
+    <node pkg="teleop_twist_keyboard_cpp" type="teleop_twist_keyboard" name="teleop_twist_keyboard" output="screen" />
+</launch>
