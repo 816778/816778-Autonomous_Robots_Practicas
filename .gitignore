@@ -21,6 +21,8 @@
 # ROS build files
 /build/
 .devel/
+devel/
+/devel/
 install/
 
 # CMake files
